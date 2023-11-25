@@ -1,0 +1,83 @@
+/* Keep your existing CSS styles or update as needed */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+    transform: scale(1.5); /* Adjust the scale as needed */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}
